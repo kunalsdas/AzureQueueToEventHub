@@ -1,0 +1,1 @@
+## This script reads messages from a queue, extracts blob URLs from the messages, downloads the corresponding blobs, and sends the blob content as events to an Azure Event Hub. It utilizes Azure Key Vault for securely storing and retrieving storage account keys.
